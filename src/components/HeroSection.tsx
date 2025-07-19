@@ -105,14 +105,6 @@ const HeroSection = () => {
               <Button variant="hero" size="lg" className="text-lg">
                 {slides[currentSlide].cta}
               </Button>
-              <Button 
-                variant="whatsapp" 
-                size="lg" 
-                onClick={handleWhatsAppClick}
-                className="text-lg"
-              >
-                Book Now on WhatsApp
-              </Button>
             </div>
 
             {/* Stats */}
